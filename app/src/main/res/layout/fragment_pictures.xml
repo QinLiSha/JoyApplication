@@ -1,0 +1,17 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:padding="5dp"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+
+    <GridView
+        android:id="@+id/gv_pic"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:verticalSpacing="5dp"
+        android:horizontalSpacing="5dp"
+        android:numColumns="3">
+
+    </GridView>
+
+</FrameLayout>
